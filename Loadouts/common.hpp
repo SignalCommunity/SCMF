@@ -4,6 +4,10 @@
 #define LAUNCHER_GEAR(BACKPACK, MAG) backpack[] = {BACKPACK}; backpackItems[] = {}; magazines[] += {MAG}; items[] += {BASE_MEDICAL};
 #define MORTAR_GEAR(BACKPACK) backpack[] = {BACKPACK}; items[] += {"ACE_RangeTable_82mm"};
 
+// HELPERS
+#define ARR_2(ARG1,ARG2) ARG1, ARG2
+#define ARR_3(ARG1,ARG2,ARG3) ARG1, ARG2, ARG3
+
 // RADIOS
 #define RADIO_SR "ACRE_PRC343"
 #define RADIO_MR "ACRE_PRC148"
