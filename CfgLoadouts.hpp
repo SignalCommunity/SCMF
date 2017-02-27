@@ -11,7 +11,7 @@ class CfgLoadouts {
 
   //Do Vehicle Loadouts
   //(1 will run normaly, 0 will leave them to vanilla defaults, -1 will clear and leave empty)
-  setVehicleLoadouts = -1;
+  setVehicleLoadouts = 1;
 
   //Fallback: use a basic soldiers loadout when the unit's classname isn't found (for Alive spawning random units)
   useFallback = 1;
